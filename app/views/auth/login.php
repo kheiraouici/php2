@@ -6,6 +6,8 @@ if (isset($_GET["keypass"]) && !empty($_Get["keypass"])){
     $keypass = $_GET["keypass"];
 }
 echo ("bonjour $name , nous avons bien reçu votrr mot de passe $keypass");
+require ("./app/views/navbar.php");
+require ("./app/views/footer.php");
 ?>
 <table class="table table-bordered">
     <thead class="table-light">
