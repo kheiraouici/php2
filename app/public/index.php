@@ -57,6 +57,6 @@ switch ($uri) {
         break;
 }
 
-
+require ('./app/views/navbar.php')
 
 ?>

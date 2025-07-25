@@ -52,8 +52,11 @@ require ('./navbar.php')
         </tr>
     </tbody>
 </table>
-<form action="./auth/login.php" method="get">
-    <input type="submit">
-</form>
+<div>
+    <span>auteur :xxxxxx</span>
+    <span>téléphone: xxxxxxxxxx</span>
+    <span>email : xxxxxxxxx</span>
+    <span>nombres total de place : xxxxx</span>
+</div>
 </body>
 </html>
